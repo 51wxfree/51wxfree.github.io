@@ -28,6 +28,10 @@ docker-compose down
 
 docker-compose up -d
 
+
+docker exec -it 7197f51089b3 /bin/sh
+
+
 ifconfig
 
 http://172.18.0.1:11434
