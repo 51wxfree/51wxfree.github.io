@@ -1,7 +1,7 @@
 
 #cd userfiles
 
-# curl -fsSL https://ollama.com/install.sh | sh
+curl -fsSL https://ollama.com/install.sh | sh
 
 # mkdir /tmp/ollamamodels
 #export OLLAMA_MODELS=/tmp/ollamamodels
@@ -21,12 +21,11 @@ df -h
 
 ollama list
 
-ollama pull qwen2.5:0.5b
-ollama pull tinyllama:1.1b
+ollama pull llama3.2:1b
 ollama pull nomic-embed-text:latest
 
 # ollama pull hf.co/bartowski/Meta-Llama-3.1-8B-Instruct-GGUF:IQ2_M
-ollama pull hf.co/bartowski/Meta-Llama-3.1-8B-Instruct-GGUF:IQ4_XS
+# ollama pull hf.co/bartowski/Meta-Llama-3.1-8B-Instruct-GGUF:IQ4_XS
 
 # ollama pull qwen2.5:7b
 # ollama pull llama3.1:8b

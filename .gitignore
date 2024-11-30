@@ -49,3 +49,5 @@ userfiles/mongo/
 userfiles/mysql/
 userfiles/oneapi/
 userfiles/pg/
+
+ollama.log
