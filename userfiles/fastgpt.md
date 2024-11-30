@@ -28,9 +28,13 @@ docker-compose down
 
 docker-compose up -d
 
+docker restart fastgpt
 
-docker exec -it 7197f51089b3 /bin/sh
 
+docker exec -it a303d4f46f07 /bin/sh
+docker cp a303d4f46f07:/app/ /workspaces/51wxfree.github.io/app/
+
+docker run -v /workspaces/51wxfree.github.io/app:/app -it a303d4f46f07
 
 ifconfig
 
